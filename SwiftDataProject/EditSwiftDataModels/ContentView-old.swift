@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ContentViewEditModels.swift
 //  SwiftDataProject
 //
 //  Created by Dechon Ryan on 5/31/24.
@@ -8,7 +8,7 @@
 import SwiftData
 import SwiftUI
 
-struct ContentView: View {
+struct ContentViewEditModels: View {
     @Environment(\.modelContext) var modelContext
     @Query(sort: \User.name) var users: [User]
     @State private var path = [User]()
@@ -36,5 +36,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ContentViewEditModels()
 }
