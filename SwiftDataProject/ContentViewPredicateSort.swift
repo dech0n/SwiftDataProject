@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ContentViewPredicateSort.swift
 //  SwiftDataProject
 //
 //  Created by Dechon Ryan on 5/31/24.
@@ -8,7 +8,7 @@
 import SwiftData
 import SwiftUI
 
-struct ContentView: View {
+struct ContentViewPredicateSort: View {
     @Environment(\.modelContext) var modelContext
     @Query(filter: #Predicate<User> { user in
         // could also use a single if/else statement (nested is ok)
@@ -45,5 +45,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ContentViewPredicateSort()
 }
