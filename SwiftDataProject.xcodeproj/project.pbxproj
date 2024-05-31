@@ -14,6 +14,7 @@
 		B9FF52CA2C0A655D00A6E73B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FF52C92C0A655D00A6E73B /* User.swift */; };
 		B9FF52CC2C0A65CB00A6E73B /* EditUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FF52CB2C0A65CB00A6E73B /* EditUserView.swift */; };
 		B9FF52CE2C0A6AA400A6E73B /* ContentView-old.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FF52CD2C0A6AA400A6E73B /* ContentView-old.swift */; };
+		B9FF52D22C0A7E5600A6E73B /* ContentViewPredicateSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FF52D12C0A7E5600A6E73B /* ContentViewPredicateSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		B9FF52C92C0A655D00A6E73B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B9FF52CB2C0A65CB00A6E73B /* EditUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserView.swift; sourceTree = "<group>"; };
 		B9FF52CD2C0A6AA400A6E73B /* ContentView-old.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ContentView-old.swift"; sourceTree = "<group>"; };
+		B9FF52D12C0A7E5600A6E73B /* ContentViewPredicateSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewPredicateSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +61,10 @@
 			children = (
 				B9FF52BB2C0A5C1800A6E73B /* SwiftDataProjectApp.swift */,
 				B9FF52BD2C0A5C1800A6E73B /* ContentView.swift */,
-				B9FF52CF2C0A6AB700A6E73B /* Editing SwiftData Models */,
 				B9FF52C92C0A655D00A6E73B /* User.swift */,
 				B9FF52BF2C0A5C1900A6E73B /* Assets.xcassets */,
 				B9FF52C12C0A5C1900A6E73B /* Preview Content */,
+				B9FF52CF2C0A6AB700A6E73B /* Editing SwiftData Models */,
 			);
 			path = SwiftDataProject;
 			sourceTree = "<group>";
@@ -78,10 +80,20 @@
 		B9FF52CF2C0A6AB700A6E73B /* Editing SwiftData Models */ = {
 			isa = PBXGroup;
 			children = (
+				B9FF52D02C0A7E2F00A6E73B /* QuerySortPredicate */,
 				B9FF52CB2C0A65CB00A6E73B /* EditUserView.swift */,
 				B9FF52CD2C0A6AA400A6E73B /* ContentView-old.swift */,
 			);
 			path = "Editing SwiftData Models";
+			sourceTree = "<group>";
+		};
+		B9FF52D02C0A7E2F00A6E73B /* QuerySortPredicate */ = {
+			isa = PBXGroup;
+			children = (
+				B9FF52D12C0A7E5600A6E73B /* ContentViewPredicateSort.swift */,
+			);
+			name = QuerySortPredicate;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +168,7 @@
 			files = (
 				B9FF52CE2C0A6AA400A6E73B /* ContentView-old.swift in Sources */,
 				B9FF52BE2C0A5C1800A6E73B /* ContentView.swift in Sources */,
+				B9FF52D22C0A7E5600A6E73B /* ContentViewPredicateSort.swift in Sources */,
 				B9FF52CC2C0A65CB00A6E73B /* EditUserView.swift in Sources */,
 				B9FF52BC2C0A5C1800A6E73B /* SwiftDataProjectApp.swift in Sources */,
 				B9FF52CA2C0A655D00A6E73B /* User.swift in Sources */,
