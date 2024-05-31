@@ -9,7 +9,8 @@ import SwiftData
 import SwiftUI
 
 struct EditUserView: View {
-    @Bindable var user: User
+    @Bindable var user: User // makes editing & saving easy
+    
     var body: some View {
         Form {
             TextField("Name", text: $user.name)
