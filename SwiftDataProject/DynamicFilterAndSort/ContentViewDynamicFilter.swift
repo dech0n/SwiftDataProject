@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ContentViewDynamicFilter.swift
 //  SwiftDataProject
 //
 //  Created by Dechon Ryan on 5/31/24.
@@ -8,7 +8,7 @@
 import SwiftData
 import SwiftUI
 
-struct ContentView: View {
+struct ContentViewDynamicFilter: View {
     @Environment(\.modelContext) var modelContext
     @State private var showingUpcomingOnly = false
     
@@ -64,5 +64,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ContentViewDynamicFilter()
 }

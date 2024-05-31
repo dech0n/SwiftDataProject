@@ -1,5 +1,5 @@
 //
-//  UsersView.swift
+//  UsersViewDynamicFilter.swift
 //  SwiftDataProject
 //
 //  Created by Dechon Ryan on 5/31/24.
@@ -8,7 +8,7 @@
 import SwiftData
 import SwiftUI
 
-struct UsersView: View {
+struct UsersViewDynamicFilter: View {
     @Query var users: [User]
     
     var body: some View {
